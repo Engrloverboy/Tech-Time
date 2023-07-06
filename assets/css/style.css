@@ -10,6 +10,7 @@ img {
 .first-section {
   background-color: #004db3;
   background-image: url("../image/svg/Minimal\ Pattern\ -\ 1\ -\ D.svg");
+  overflow: hidden;
 }
 
 .container {
@@ -44,7 +45,8 @@ nav ul li {
 nav ul li:hover {
   color: #ffff;
 }
-nav ul button {
+nav ul button,
+.banner .enroll-bttn {
   color: #004db3;
   border-radius: 4px;
   background: #fff;
@@ -53,6 +55,89 @@ nav ul button {
 }
 .nav-mobile {
   display: none;
+}
+.banner {
+  text-align: center;
+}
+.banner h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+  max-width: 450px;
+  margin: 0 auto;
+  color: #ffff;
+}
+.banner .section-words {
+  color: #ffff;
+  font-size: 10px;
+  max-width: 297px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.banner .get-bttn {
+  color: #ffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #ffff;
+  background-color: #004db3;
+  margin-right: 15px;
+}
+.banner .overall-pro-pics {
+  display: flex;
+  align-items: center;
+  max-width: 327px;
+}
+
+.banner .overall-pro-pics .profile-pics .profile-2 {
+  left: -20px;
+}
+
+.banner .overall-pro-pics .profile-pics .profile-3 {
+  left: -40px;
+}
+
+.banner .overall-pro-pics .profile-pics .profile-4 {
+  left: -60px;
+}
+
+.banner .overall-pro-pics .profile-pics .profile-5 {
+  left: -80px;
+}
+
+.banner .overall-pro-pics .profile-pics img {
+  width: 50px;
+  height: 50px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.banner .overall-pro-pics .previews {
+  position: relative;
+  left: -60px;
+  color: #ffff;
+}
+.herobanner {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.herobanner .vector {
+  position: absolute;
+  width: 70px;
+  right: 0;
+  top: -95px;
+}
+.herobanner .pics-hero {
+  max-width: 700px;
+  margin: 0 auto;
+  bottom: -8px;
+  position: relative;
+}
+.vectorw {
+  width: 33px;
+  position: absolute;
+  left: 0;
 }
 
 @media (max-width: 900px) {
@@ -77,7 +162,7 @@ nav ul button {
     display: block;
     position: absolute;
     padding: 10px;
-    background-color: #004db3;
+    background-color: #ffff;
     width: 200px;
     right: 0;
     top: 90px;
@@ -93,5 +178,10 @@ nav ul button {
   }
   nav ul li {
     padding: 5px 0;
+  }
+
+  .overall-pro-pics {
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
