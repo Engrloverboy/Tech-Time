@@ -444,6 +444,65 @@ nav ul button,
   display: none;
 }
 
+footer {
+  background: #000f24;
+  color: #ffff;
+}
+.footer {
+  margin-bottom: 30px;
+}
+.footer .footer-logo img {
+  width: 65px;
+  margin: 20px 0;
+}
+.footer p {
+  font-size: 14px;
+  max-width: 238px;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 238px;
+  align-items: center;
+  margin: 20px 0;
+}
+.footer ul li {
+  width: 25px;
+}
+footer .footer-sec-slide {
+  margin-bottom: 30px;
+}
+footer .footer-sec-slide ul h4 {
+  margin: 20px 0;
+}
+footer .footer-sec-slide ul li {
+  line-height: 25px;
+  font-size: 12px;
+}
+footer .footer-subs input {
+  border-radius: 2px 0px 0px 2px;
+  border: 1px solid #054fb3;
+  background: #2a2a2b;
+  width: 220px;
+  height: 15px;
+  padding: 10px;
+}
+footer .footer-subs form {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+footer .footer-subs form button {
+  border-radius: 0px 2px 2px 0px;
+  background: #054fb3;
+  width: 123px;
+  padding: 10px;
+  height: 37px;
+  color: #ffff;
+  border: none;
+  font-size: 12px;
+}
+
 @media (min-width: 350px) {
   .third-section .words-third-section h2 img {
     left: 16px;
