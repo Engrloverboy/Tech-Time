@@ -479,6 +479,10 @@ footer .footer-sec-slide ul li {
   line-height: 25px;
   font-size: 12px;
 }
+
+footer .footer-subs h4 {
+  margin: 20px 0;
+}
 footer .footer-subs input {
   border-radius: 2px 0px 0px 2px;
   border: 1px solid #054fb3;
@@ -527,6 +531,12 @@ footer .footer-subs form button {
   .third-section .words-third-section h2 img {
     left: -18px;
   }
+  footer .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 67%;
+  }
 }
 @media (min-width: 600px) {
   .category {
@@ -534,6 +544,9 @@ footer .footer-subs form button {
   }
   .third-section .words-third-section h2 img {
     left: -18px;
+  }
+  footer .footer-flex {
+    width: 65%;
   }
 }
 
@@ -574,6 +587,17 @@ footer .footer-subs form button {
   }
   .third-section .words-third-section h2 img {
     left: -18px;
+  }
+  footer .footer-flex {
+    width: 99%;
+  }
+
+  footer .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .footer ul {
+    width: 20%;
   }
 }
 @media (min-width: 900px) {
@@ -675,10 +699,6 @@ footer .footer-subs form button {
   .fourth-section .flex-fourth {
     margin-top: 35px;
   }
-  /* .all-categories {
-    display: flex;
-    flex-wrap: wrap;
-  } */
   .category {
     width: 250px;
   }
